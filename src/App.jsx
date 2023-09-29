@@ -33,6 +33,7 @@ function App() {
   <input type='text' value={result}/>
   </form>
   <div className="keypad">
+    
     <button className='clear' onClick={clear} id='clear'>Clear</button>
     <button className='backspace' onClick={backspace} id='backspace'>C</button>
     <button name='/' onClick={handelClick} className='operation'>&divide;</button>
